@@ -4,6 +4,26 @@
    box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'LightFont';
+    src: url(webfonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: 'BoldFont';
+    src: url(webfonts/RobotoCondensed-Regular.ttf);
+}
+
+h1 {
+    font-family: 'BoldFont';
+}
+
+p {
+    font-family: 'LightFont';
+    font-size: 20px;
+    font-weight: bold;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -16,14 +36,36 @@ body {
 }
 
 .left {
-    background-image: url(photo-1585202900225-6d3ac20a6962.avif);
-    width: 400px;
-    align-items: center;
+    background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);
+    image-rendering: optimizeQuality;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     color: white;
+}
+
+.logo {
+    background-color: #2b6f856c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;
+    width: 380px;
+    margin-top: 30px;
+    padding: 5px;
+    gap: 10px;
 }
 
 .right {
     background-color: #7dafc8;
     width: 1000px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
 }
