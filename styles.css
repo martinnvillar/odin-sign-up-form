@@ -71,21 +71,16 @@ body {
     margin-top: 10px;
 }
 
-.form {
+.form-container {
     background-color: #a3daf5;
     display: flex;
-    flex-flow: row wrap;
-    gap: 20px;
+    flex-direction: column;
     margin-left: -20px;
     height: 300px;
     padding: 40px;
     box-shadow: 2px 2px 4px #30303019;
 }
 
-input {
-    display: flex;
-    flex-flow: column wrap;
-}
 
 label {
     font-family: 'LightFont';
