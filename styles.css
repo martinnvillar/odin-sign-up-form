@@ -105,6 +105,10 @@ input {
     padding: 5px;
 }
 
+input:focus {
+    box-shadow: 2px 2px 4px black;
+}
+
 .button-container {
     margin-top: 25px;
 }
