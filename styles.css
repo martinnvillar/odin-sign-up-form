@@ -100,6 +100,9 @@ input {
     background-color: #a3daf5;
     border-color: #5495b4;
     margin-top: 5px;
+    font-family: 'LightFont';
+    font-size: 20px;
+    padding: 5px;
 }
 
 .button-container {
@@ -137,4 +140,8 @@ fieldset {
 
 .fset2 {
     margin-top: 180px;
+}
+
+a {
+    text-decoration: none;
 }
