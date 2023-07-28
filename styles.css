@@ -106,7 +106,8 @@ input {
 }
 
 input:focus {
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px #000000;
+    border: solid #5495b4;
 }
 
 .button-container {
